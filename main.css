@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 22px;
+    background-color: #F3D7B7;
+ 
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+ 
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+ 
+}
+.header__link{
+    color: #333333;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    
+}
+.header__link:hover{
+    color: red;
+  
+}
+.hero{
+    padding-top: 130px;
+    padding-bottom: 257px;
+    background-color: blanchedalmond;
+    display: flex;
+}
+.header_textbox{
+ 
+
+}
+.nimijio{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0px;
+text-align: left;
+display: flex;
+}
+.hiokli{
+ 
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;6
+}
+.jijok{
+    background-color: aliceblue;
+ justify-content: left;
+ align-items: left;
+}
